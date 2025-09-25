@@ -1,0 +1,63 @@
+/* body selector here */
+
+body {
+  background-color: #1F2937;
+  color: lightgray;
+  margin: 0;
+  height: 100vh;
+  display: flex;               /* enables flexbox */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  font-family: "Karla", sans-serif;
+}
+
+
+.main {
+  max-width: 800px;
+  width: 90%;                  /* fluid on smaller screens */
+  text-align: left;            /* text stays left-aligned */
+  padding: 20px;
+}
+
+/* heading section */
+
+.first-heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.second-heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: #4ADF86;
+}
+
+.first-heading, .second-heading {
+  line-height: 0.1em;
+}
+
+.subtitle {
+  line-height: 0.1em;
+  font-weight: lighter;
+}
+
+#password-btn {
+  background-color: #10B981;
+  padding: 9px 15px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  margin: 40px 0;
+}
+
+/* line here */
+
+.line {
+border-top: 1px solid #2F3E53;
+margin: 0px 0 20px 0;
+width: 100%;
+}
+
+/* password generator */
+
