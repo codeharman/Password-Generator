@@ -83,6 +83,19 @@ margin: 0px 0 40px 0;
   border-radius: 6px;
   color: #55F991;
   font-size: 16px;
+  cursor: grab;
+}
+
+#first-el:hover {
+  background-color: hotpink;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+#second-el:hover {
+  background-color: hotpink;
+  color: whitesmoke;
+  transition: 0.5s;
 }
 
 /* contact */

@@ -33,3 +33,16 @@ function randomPassword() {
 
 
 };
+
+
+// trying to make the clipboard function 
+
+firstEl.addEventListener('click', () => {
+  navigator.clipboard.writeText(firstEl.textContent);
+    alert('First Password Copied')
+});
+
+secondEl.addEventListener('click', () => {
+  navigator.clipboard.writeText(secondEl.textContent);
+    alert('Second Password Copied')
+})
