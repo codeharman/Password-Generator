@@ -75,3 +75,14 @@ margin: 0px 0 40px 0;
   color: #55F991;
   font-size: 16px;
 }
+
+/* contact */
+
+.contact {
+  color: lightgray;
+  font-weight: lighter;
+}
+
+a {
+  color: hotpink;
+}
