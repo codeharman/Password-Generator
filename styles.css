@@ -62,14 +62,14 @@ margin: 0px 0 40px 0;
 /* password generator */
 
 .password-generator {
-  color: white
+  color: white;
 }
 
 /* Two boxes */
 
 #first-el, #second-el {
   background-color: #273549;
-  padding: 10px 100px;
+  padding: 10px 45px;
   margin: 0 15px 0 0;
   border-radius: 6px;
   color: #55F991;
